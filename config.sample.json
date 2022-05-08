@@ -1,0 +1,22 @@
+{
+  "logLevel": "info",
+  "twitter": {
+    "apiKey": "CREATE API KEY AND SECRET",
+    "apiSecret": "CREATE API KEY AND SECRET",
+    "token": "GENERATE TOKEN YOUR OWN TOKEN"
+  },
+  "smtpTransport": {
+    "host": "smtp.mail.fr",
+    "port": 587,
+    "secure": true,
+    "auth": {
+      "user": "login@mail.fr",
+      "pass": "password"
+    },
+    "tls": {
+      "rejectUnauthorized": true
+    }
+  },
+  "mailSender": "eth.drop@mail.fr",
+  "mailRecipient": "destination@mail.fr"
+}
